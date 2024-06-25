@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
       moveLeft();
     }
   }
-  document.addEventListener("keyup", control);
+  document.addEventListener("keyup", controll);
 
   //move down the Tetromino every second
   timerId = setInterval(moveDown, 1000);
